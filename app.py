@@ -27,8 +27,8 @@ app = FastAPI()
 # --------------------------------------------------
 
 AUDIO_DIR = "audio"
-MAX_TEXT_LENGTH = 4000
-MAX_TITLE_LENGTH = 100
+MAX_TEXT_LENGTH = 14000
+MAX_TITLE_LENGTH = 170
 TTS_CONCURRENCY_LIMIT = 3
 TTS_TIMEOUT = 30
 
