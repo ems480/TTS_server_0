@@ -128,9 +128,9 @@ def norah_explain(text):
 
     return " ".join(enriched)
 
-@app.post("/ping")
+@app.route("/ping")
 def ping():
-    return "alive"
+    return "server running"
 # --------------------------------------------------
 # Generate endpoint
 # --------------------------------------------------
