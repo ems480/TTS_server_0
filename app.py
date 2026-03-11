@@ -51,7 +51,7 @@ tts_semaphore = asyncio.Semaphore(TTS_CONCURRENCY_LIMIT)
 TEACHER_PERSONAS = {
     "warm_mentor": {
         "voice": "en-US-JennyNeural",
-        "rate": "-10%",
+        "rate": "+0%",
         "volume": "+0%",
         "pitch": "+2Hz",
         "openings": [
@@ -77,7 +77,7 @@ TEACHER_PERSONAS = {
     },
     "clear_instructor": {
         "voice": "en-US-GuyNeural", 
-        "rate": "-5%",
+        "rate": "+0%",
         "volume": "+0%",
         "pitch": "0Hz",
         "openings": [
@@ -103,7 +103,7 @@ TEACHER_PERSONAS = {
     },
     "engaging_educator": {
         "voice": "en-US-AriaNeural",
-        "rate": "-8%",
+        "rate": "+5%",
         "volume": "+0%",
         "pitch": "+5Hz", 
         "openings": [
