@@ -66,7 +66,7 @@ TEACHER_PERSONAS = {
             "You're doing great—let's keep going.",
             "This is a key concept, so take a moment to absorb it.",
             "Excellent progress. Now, let's build on that."
-.        ],
+.       ],
         "recaps": [
             "So, to quickly recap what we've covered...",
             "Let's pause and summarize the main ideas.",
