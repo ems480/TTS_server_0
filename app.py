@@ -44,7 +44,7 @@ app.mount("/audio", StaticFiles(directory=AUDIO_DIR), name="audio")
 tts_semaphore = asyncio.Semaphore(TTS_CONCURRENCY_LIMIT)
 
 # --------------------------------------------------
-# Teacher Personas (Voice Profiles)
+# Teacher Personas (Voice Profiles) - CORRECTED
 # --------------------------------------------------
 TEACHER_PERSONAS = {
     "warm_mentor": {
@@ -66,7 +66,7 @@ TEACHER_PERSONAS = {
             "You're doing great—let's keep going.",
             "This is a key concept, so take a moment to absorb it.",
             "Excellent progress. Now, let's build on that."
-.       ],
+        ],
         "recaps": [
             "So, to quickly recap what we've covered...",
             "Let's pause and summarize the main ideas.",
@@ -87,7 +87,7 @@ TEACHER_PERSONAS = {
             "Next, we consider",
             "Moving to the following point",
             "This leads us to"
- not        ],
+        ],
         "encouragements": [
             "Note this carefully",
             "This is an essential distinction",
@@ -113,7 +113,7 @@ TEACHER_PERSONAS = {
             "Now here's the exciting part",
             "Wait until you hear this next piece",
             "This connects beautifully to what comes next"
- ],
+        ],
         "encouragements": [
             "You've got this!",
             "Think about how this applies to your world",
@@ -126,7 +126,6 @@ TEACHER_PERSONAS = {
         ]
     }
 }
-
 # --------------------------------------------------
 # Request Model
 # --------------------------------------------------
